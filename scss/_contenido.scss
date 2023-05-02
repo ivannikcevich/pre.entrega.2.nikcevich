@@ -1,0 +1,18 @@
+/* Contenido principal */
+.bordes {
+    border: groove 0.5rem black;
+    width: 45rem;
+}
+
+.resaltado {
+    color: black;
+
+    &:hover {
+        color: rgb(220, 53, 69);
+        transform: scale(1.1);
+    }
+}
+
+.resaltado-img:hover {
+    transform: scale(1.01);
+}

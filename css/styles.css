@@ -1,36 +1,32 @@
 /* Reset */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+/* General */
 body {
-    font-family: 'Rubik', sans-serif;
-    background-color: #e5e5e5;
+  font-family: "Rubik", sans-serif;
+  background-color: #e5e5e5;
 }
 
 /* Contenido principal */
 .bordes {
-    border: groove 0.5rem black;
-    width: 45rem;
+  border: groove 0.5rem black;
+  width: 45rem;
 }
 
 .resaltado {
-    color: black;
+  color: black;
 }
-
 .resaltado:hover {
   color: rgb(220, 53, 69);
   transform: scale(1.1);
 }
 
 .resaltado-img:hover {
-    color: rgb(220, 53, 69);
-    transform: scale(1.01);
+  transform: scale(1.01);
 }
 
-/* Formulario */
-.fondo {
-    background-color: #2b2d42;
-}
+/*# sourceMappingURL=styles.css.map */
